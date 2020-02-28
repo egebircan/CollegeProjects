@@ -3,9 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-
 import static java.lang.Integer.parseInt;
-
 
 public class CountryFileReader
 {

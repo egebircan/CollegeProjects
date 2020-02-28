@@ -1,11 +1,10 @@
 import java.sql.*;
-
+import java.util.ArrayList;
 import static java.lang.Integer.parseInt;
-
 
 public class DBOperator {
 
-    public static boolean writeCountryToDB(Country country) {
+    public static boolean writeCountryToDB(ArrayList<Country> allCountries) {
 
         try {
 
@@ -13,13 +12,18 @@ public class DBOperator {
 
             Connection dbConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/Countries");
 
-            PreparedStatement preparedStatement =  dbConnection.prepareStatement("insert into COUNTRIES (NAME, CONTINENT, CAPITAL, POPULATION) values (?, ?, ?, ?)");
-            preparedStatement.setString(1, country.getName());
-            preparedStatement.setString(2, country.getContinent());
-            preparedStatement.setString(3, country.getCapital());
-            preparedStatement.setString(4, country.getPopulation().toString());
+            for(Country country : allCountries) {
 
-            preparedStatement.execute();
+                PreparedStatement preparedStatement = dbConnection.prepareStatement("insert into COUNTRIES (ID, NAME, CONTINENT, CAPITAL, POPULATION) values (?, ?, ?, ?, ?)");
+                preparedStatement.setString(1, country.getId().toString());
+                preparedStatement.setString(2, country.getName());
+                preparedStatement.setString(3, country.getContinent());
+                preparedStatement.setString(4, country.getCapital());
+                preparedStatement.setString(5, country.getPopulation().toString());
+
+                preparedStatement.execute();
+
+            }
 
             dbConnection.close();
 

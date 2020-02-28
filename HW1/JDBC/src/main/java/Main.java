@@ -7,15 +7,14 @@ public class Main {
 
         ArrayList<Country> allCountries = CountryFileReader.readCountriesFromFile("/home/egebircan/Desktop/world.txt");
 
-        for(Country country : allCountries) {
-            //DBOperator.writeCountryToDB(country);
-        }
+        //DBOperator.writeCountryToDB(allCountries);
 
-        //Country country = DBOperator.getCountryByID(0);
+        //Country country = DBOperator.getCountryByID(3);
+        //System.out.println(country.getName());
 
         //System.out.println(DBOperator.deleteCountryById(1));
 
-        //System.out.println(DBOperator.updateCountryPopulationByID(3, 0));
+        //System.out.println(DBOperator.updateCountryPopulationByID(3, 31));
 
     }
 }

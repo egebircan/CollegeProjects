@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30a62904-a8c8-4416-86d4-8aeb659c6364" name="Default Changelist" comment="" />
+    <list default="true" id="30a62904-a8c8-4416-86d4-8aeb659c6364" name="Default Changelist" comment="JPA is added. JDBC little refactor">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/JPA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/lib/byte-buddy-1.9.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/lib/hibernate-core-5.4.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/lib/jandex-2.0.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/lib/mysql-connector-java-8.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/src/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/src/CountryFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/src/DBOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/src/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CountryFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CountryFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DBOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DBOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Country.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DBOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DBOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/JDBC.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,16 +49,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../JPA/src/Country.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="152">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -28,11 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CountryFileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-557">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -40,38 +83,48 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Country.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" selection-start-line="7" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="-272">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
-                <element signature="e#52#53#0" expanded="true" />
-                <element signature="e#79#80#0" expanded="true" />
-                <element signature="e#119#120#0" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DBOperator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="129" column="34" lean-forward="true" selection-start-line="129" selection-start-column="34" selection-end-line="129" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="19">
+              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -85,6 +138,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -95,8 +151,11 @@
         <option value="$PROJECT_DIR$/src/DBWriter.java" />
         <option value="$PROJECT_DIR$/src/main/java/DBWriter.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/Country.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/DBOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CountryFileReader.java" />
       </list>
     </option>
   </component>
@@ -109,23 +168,32 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="JDBC" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="JDBC" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="681" />
-    <option name="y" value="291" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
     <option name="width" value="927" />
-    <option name="height" value="789" />
+    <option name="height" value="1055" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,29 +201,17 @@
               <item name="JDBC" type="b2602c69:ProjectViewProjectNode" />
               <item name="JDBC" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JDBC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JDBC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JDBC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Week4Day2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -210,43 +266,46 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918962" visible="true" weight="0.31433314" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918962" visible="true" weight="0.31045932" />
       <window_info id="Structure" order="1" sideWeight="0.5008104" side_tool="true" weight="0.31433314" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3297414" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33512932" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3347732" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42456895" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297414" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" weight="0.32982844" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32937366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24958494" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info active="true" anchor="right" id="Maven" order="4" visible="true" weight="0.32982844" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JPA is added. JDBC little refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="JPA is added. JDBC little refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>13</line>
+          <line>11</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
@@ -272,55 +331,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CountryFileReader.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Country.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#52#53#0" expanded="true" />
-            <element signature="e#79#80#0" expanded="true" />
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="57">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DBOperator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="129" column="34" lean-forward="true" selection-start-line="129" selection-start-column="34" selection-end-line="129" selection-end-column="34" />
+        <state relative-caret-position="19">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CountryFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-557">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../JPA/src/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,9 @@
-public class Country {
+import java.util.concurrent.atomic.AtomicInteger;
 
+public class Country {
+    private static final AtomicInteger count = new AtomicInteger(0);
+
+    private Integer id;
     private String name;
     private String continent;
     private String capital;
@@ -10,6 +14,15 @@ public class Country {
         this.continent = continent;
         this.capital = capital;
         this.population = population;
+        id = count.incrementAndGet();
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getName() {
